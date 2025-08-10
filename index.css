@@ -1,0 +1,83 @@
+.Head{
+    color: white;
+    background-color: rgb(255, 136, 0);
+}
+
+.Image{
+    width: 15%;
+}
+
+.Image img{
+    width: 100%;
+}
+
+.table-1{
+    list-style-type: none;
+}
+
+.li-button button{
+    border-color:  rgb(255, 136, 0);
+    background-color:  rgb(255, 136, 0);
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: normal !important; /* Remove bold */
+  color: inherit !important;       /* Use same color as other links */
+}
+
+
+.Heading{
+    width: 60%;
+    color: #a52a2a;
+    display: flex;
+}
+
+.End{
+    background-color: orangered;
+}
+
+.Right a{
+background-color: #a52a2a;
+color: white;
+text-decoration: none;
+}
+
+.Links{
+border: #a52a2a solid 2px;
+}
+
+.C  l-1{
+    background-color: red;
+    color: white;
+}
+
+@media(Max-Width: 630px) {
+    .Head{
+        flex-direction: column;
+    }
+
+
+
+    .Tables{
+        text-align: start;
+    }
+
+}
+
+
+@media(Max-Width: 630px) {
+    .Cl-1{
+        text-align: start;
+        color: #a52a2a;
+        background-color: white;
+    }
+}
+
+@media(Max-width: 390px) {
+    .Tables{
+        margin-left: 0;
+        flex-direction: column;
+        font-size: large;
+    }
+
+}

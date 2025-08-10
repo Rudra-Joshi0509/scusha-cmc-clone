@@ -1,0 +1,60 @@
+.Head{
+    color: white;
+    background-color: rgb(255, 134, 0);
+}
+
+.Image{
+    width: 15%;
+}
+
+.Image img{
+    width: 100%;
+}
+
+.Intro{
+    color: white;
+    background-color: rgb(255, 134, 0);
+}
+
+.Heading{
+    width: 60%;
+    color: #a52a2a;
+    display: flex;
+}
+
+.End{
+    background-color: orangered;
+}  
+
+.G-Image{
+width: 22%;
+}
+
+.G-Image img{
+    width: 100%;
+    height: 120%;
+}
+
+.G-Img{
+    width: 100%;
+} 
+
+.Right a{
+    background-color: #a52a2a;
+    color: white;
+    text-decoration: none;
+    }
+
+    @media(Max-Width: 630px) {
+        .Head{
+            flex-direction: column;
+        }
+
+        .G-Img{
+            flex-direction: column;
+        }
+
+        .G-Image{
+        width: 50%;
+        }
+    }

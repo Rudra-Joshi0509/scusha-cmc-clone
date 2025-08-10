@@ -1,0 +1,79 @@
+.Head{
+    color: white;
+    background-color: rgb(255, 134, 0);
+}
+
+.Image{
+    width: 15%;
+}
+
+.Image img{
+    width: 100%;
+}
+
+.Intro{
+    color: white;
+    background-color: rgb(255, 134, 0);
+}
+
+.Heading{
+    width: 60%;
+    color: #a52a2a;
+    display: flex;
+}
+
+.End{
+    background-color: orangered;
+} 
+
+.Logo-pair-Head{
+    gap: 50px;
+}
+
+.logo-pair{
+    width: 16%;
+}
+
+.logo-pair img{
+    width: 100%;
+}
+
+.Right a{
+    background-color: #a52a2a;
+    color: white;
+    text-decoration: none;
+    }
+
+    .Images-01{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+     }
+     
+     .Images-01  img{
+         width: 70%;
+         height: 300px;
+     }
+     
+     .Images-01 p{
+         width: 70%;
+     }
+
+
+    @media(Max-Width: 768px) {
+        .Images-01 img{
+            width: 50%;
+            height: 225px;
+        }
+
+        .Images-01 p{
+            width: 50%;
+        }
+    }  
+
+    @media(Max-Width: 630px) {
+        .Head{
+            flex-direction: column;
+        }
+    }
